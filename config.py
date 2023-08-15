@@ -11,5 +11,5 @@ class Config(object):
 
 class DevelopmentConfig(Config):
     DEBUG = True
-    SQLALCHEMY_DATABASE_URI = 'mysql+pymysql://admin:Masterxbox19@reest.ciicou1qy8x0.us-east-1.rds.amazonaws.com/final'    
+    SQLALCHEMY_DATABASE_URI = 'mysql+pymysql://root:cisco123!@integradora.cbzqwdggrglw.us-east-1.rds.amazonaws.com/final'    
     SQLALCHEMY_TRACK_MODIFICATIONS = False
